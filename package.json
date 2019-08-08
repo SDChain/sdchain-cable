@@ -1,0 +1,25 @@
+{
+  "name": "sdchain-cable",
+  "version": "2.0.0",
+  "author": "sdchain.io",
+  "description": "SDChain Rest",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.3",
+    "lodash": "^3.10.1",
+    "sdchain-api-core": "0.0.1",
+    "validator": "^10.9.0",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "request": "^2.87.0"
+  }
+}
